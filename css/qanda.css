@@ -1,0 +1,136 @@
+html{
+    font-family: 'Roboto';
+}
+
+/* header{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    z-index: 1;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.menu{
+    list-style: none;
+    display: flex;
+    align-content: center;
+}
+
+.jump{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 70px;
+}
+
+a{
+    color: #2D5F2E;
+    text-decoration: none;
+}
+
+.nav{
+    margin-top: 60px;
+}
+
+.nav-list{
+    max-width: 960px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 5px;
+}
+
+.nav-sublist{
+    position: absolute;
+    background-color: #E5E9DC;
+    border-radius: 10px;
+    padding: 0px 40px;
+    display: none;
+}
+
+.nav-item:hover  .nav-sublist{
+    display: block;
+}
+
+.nav-block{
+    display: block;
+    border-radius: 28px;
+    font-size: 24px;
+    font-weight: 1000;
+    color: #2D5F2E;
+    background-color: #FDE046;
+    text-decoration: none;
+    padding: 20px 50px;
+    border: 5px solid  #FD9546;
+}
+
+.nav-link{
+    display: block;
+    color: #2D5F2E;
+    text-decoration: none;
+    padding: 10px 28px;
+}
+
+.nav-block:hover{
+    background-color: #2D5F2E;
+    border: 5px solid  #173B17;
+    color: #FFFFFF;
+    transition:0.2s;
+}
+
+.nav-link:hover{
+    background-color: #2D5F2E;
+    color: #FFFFFF;
+}
+
+.mainh1{
+    margin-top: 60px;
+    margin-bottom: 100px;
+    padding-left: 40px;
+    font-size: 36px;
+    font-weight: 1000;
+    color: #3C3C3C;
+}
+
+.mainhr{
+    max-width: 80%;
+    border: 2px solid #2D5F2E;
+    border-radius: 2px;
+}
+
+.qq{
+    display: block;
+    width: 50%;
+    border: 2px solid #2D5F2E;
+    border-radius: 20px;
+    background-color: #FDE046;
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #3C3C3C;
+}
+
+.qq:hover{
+    background-color: #2D5F2E;
+    color: #FFFFFF;
+    transition: 0.2s;
+}
+
+#aaa{
+    width: 800px;
+    height: 20px;
+    background-color:#FFFFFF;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: 400;
+    color: #3C3C3C;
+    padding: 15px;
+    margin: 15px;
+}

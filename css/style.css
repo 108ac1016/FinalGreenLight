@@ -1,0 +1,616 @@
+html{
+    width: auto;
+    height: auto;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin:0;
+    padding:0;
+    background-color: #E5E5E5;
+   }
+header{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    z-index: 1;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+main{
+    width: 100%;
+    background-color: #FFFFFF;
+}
+article{
+    /* background-color: palegreen; */
+    width: 60%;
+}
+aside{
+    /* background-color: paleturquoise; */
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    background-color: #2E5922;
+    height: 240px;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+button{
+    border-style: none;
+    cursor: pointer;
+    background-color: transparent;
+    border-color: transparent;
+}
+a{
+    text-decoration: none;
+    color: #2D5F2E;
+}
+
+.ham{
+    display: none;
+}
+.home{
+    margin-left: 3%;
+}
+.bar{
+    height: 40px;
+    max-width: 280px;
+    min-width: 260px;
+    display: flex;
+    border-style: solid;
+    border-radius: 3em;
+    margin-left: 5%;
+    border-color: #C4C4C4;
+}
+.typing{
+    width: 75%;
+    font-size: 18px;
+    border-style: none;
+}
+
+
+.menu{
+    list-style: none;
+    display: flex;
+    align-content: center;
+}
+.jump{
+    min-width: 72px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-right: 100px;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap{
+    width: 1280px;
+    background-color: #FFFFFF;
+}
+.container{
+    width: 100%;
+    height: 960px;
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #8C8C8C;
+}
+.panel{
+    width: 80%;
+    margin-left: 15%;
+    margin-right: 5%;
+    background-color: #FFFFFF;
+}
+.panel img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.intro{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.title{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: #FDE046;
+}
+.essay{
+    font-size: 24px;
+    text-align: center;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.more{
+    margin-top: 120px;
+}
+.moreinfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-style: solid;
+    border-radius: 3em;
+    border-color: #FFFFFF;
+}
+
+.containertwo{
+    width: 100%;
+    margin-top: 80px;
+    background-color: #FFFFFF;
+}
+.cards{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.card{
+    width: 33.3%;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.first{
+    background-color: #8C8C8C;
+}
+.second{
+    background-color: #C4C4C4;
+}
+.third{
+    background-color: #8C8C8C;
+}
+.blank{
+    width: 180px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin-left: 20px;
+    background-color: #FDE046;
+}
+.tag{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 20px;
+    color: #2D5F2E;
+}
+.product{
+    font-size: 54px;
+    font-weight: bold;
+    text-align: right;
+    letter-spacing: 0.2em;
+    margin-right: 60px;
+    color: #FFFFFF;
+}
+.store{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    letter-spacing: 0.2em;
+    margin-right: 60px;
+    color: #FFFFFF;
+}
+.discount{
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #2D5F2E;
+    background-color: #FDE046;
+}
+
+.containerthree{
+    width: 100%;
+    height: 480px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+.map{
+    width: 65%;
+}
+.schedule{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #FDE046
+}
+.open_blank{
+    width: 180px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin-left: 50px;
+    background-color: #2D5F2E;
+}
+.open_tag{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.2em;
+    margin-left: 20px;
+    color: #FFFFFF;
+}
+.time{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 50px;
+    color: #2D5F2E;
+}
+.floor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.box{
+    width: 120px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #2D5F2E;
+    border-radius: 20px;
+}
+.one{  
+    background-color: #2D5F2E;
+}
+.two{
+    background-color: transparent;
+}
+.logo{
+    margin-left: 10%;
+}
+.final{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10%;
+    color: #FDE046;
+}
+
+
+
+#search_icon{
+    width: 30px;
+    height: 30px;
+}
+#more_text{
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+#more_icon{
+    width: 22px;
+    height: 22px;
+}
+#map_image{
+    width: 100%;
+    height: 100%;
+}
+#clock_one{
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    color: #FDE046;
+}
+#clock_two{
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    color: #2D5F2E;
+}
+
+@media screen and (max-width:768px){
+    .wrap{
+        width: 100%;
+    }
+    .bar{
+        height: 20px;
+        max-width: 120px;
+        min-width: 120px;
+        border-radius: 3em;
+        margin-left: 5%;
+    }
+    #search_icon{
+        width: 15px;
+        height: 15px;
+    }
+    .typing{
+        width: 70%;
+        font-size: 15px;
+    }
+    .menu{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .jump{
+        min-width: 60px;
+        font-weight: bold;
+        font-size: 15px;
+        margin-right: 15%;
+    }
+    .container{
+        height: 575px;
+    }
+    .panel{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .title{
+        font-size: 30px;
+    }
+    .essay{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .more{
+        margin-top: 40px;
+    }
+    #more_text{
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+    #more_icon{
+        width: 12px;
+        height: 12px;
+    }
+    .containertwo{
+        margin-top: 40px;
+    }
+    .card{
+        height: 330px;
+    }
+    .blank{
+        width: 100px;
+        height: 40px;
+        margin-left: 20px;
+    }
+    .tag{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .product{
+        font-size: 34px;
+        letter-spacing: 0.1em;
+        margin-right: 20px;
+    }
+    .store{
+        font-size: 16px;
+        letter-spacing: 0.1em;
+        margin-right: 20px;
+    }
+    .discount{
+        height: 120px;
+        font-size: 18px;
+    }
+    .containerthree{
+        height: 260px;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    .map{
+        width: 70%;
+    }
+    .schedule{
+        width: 30%;
+    }
+    .open_blank{
+        width: 100px;
+        height: 40px;
+        margin-left: 25px;
+    }
+    .open_tag{
+        font-size: 20px;
+        letter-spacing: 0.1em;
+        margin-left: 10px;
+    }
+    .time{
+        font-size: 18px;
+        margin-left: 25px;
+        color: #2D5F2E;
+    }
+    .floor{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .box{
+        width: 70px;
+        height: 35px;
+        border-radius: 10px;
+    }
+    #clock_one{
+        font-size: 18px;
+    }
+    #clock_two{
+        font-size: 18px;
+    }
+    footer{
+        height: 160px;
+    }
+    .logo{
+        width: 115px;
+        height: 50px;
+        margin-left: 5%;
+    }
+    .final{
+        font-size: 10px;
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width:320px){
+    header{
+        height: 60px;
+        /* 270px */
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ham{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .bar{
+        width: 100%;
+        display: none;
+        /* block */
+        margin-left: 0;
+        background-color: #FFFFFF;
+    }
+    .typing{
+        width: 65%;
+        font-size: 15px;
+    }
+    .menu{
+        width: 100%;
+        display: none;
+        /* block */
+        margin-bottom: 0;
+        padding: 0;
+        background-color: #FFFFFF;
+    }
+    .jump{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .container{
+        height: 420px;
+        flex-direction: column;
+        margin-top: 60px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    article{
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .panel{
+        width: 80%;
+        margin-top: 40px;
+    }
+    .intro{
+        width: 100%;
+    }
+    .title{
+        font-size: 16px;
+        margin: 0;
+    }
+    .essay{
+        font-size: 6px;
+        text-align: center;
+        line-height: 16px;
+    }
+    .more{
+        margin-top: 10px;
+    }
+    .moreinfo{
+        width: 160px;
+        justify-content: space-evenly;
+        border-radius: 2.5em;
+    }
+    #more_text{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .card{
+        height: 260px;
+        justify-content: space-between;
+    }
+    .blank{
+        width: 30px;
+        height: 80px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin-left: 20px;
+    }
+    .tag{
+        writing-mode: vertical-rl;
+        margin-left: 0;
+    }
+    .product{
+        font-size: 26px;
+        writing-mode: vertical-rl;
+        margin-left: 56px;
+    }
+    .store{
+        font-size: 12px;
+        margin-right: 0;
+        text-align: center;
+    }
+    .discount{
+        height: 100px;
+        font-size: 15px;
+        text-align: center;
+    }
+    .containerthree{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .map{
+        width: 100%;
+    }
+    .schedule{
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .open_blank{
+        width: 80px;
+        height: 40px;
+        margin-top: 20px;
+    }
+    .open_tag{
+        font-size: 20px;
+        letter-spacing: 0.1em;
+    }
+    .time{
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    .floor{
+        width: 100%;
+    }
+    .final{
+        font-size: 8px;
+        margin-left: 5%;
+    }
+}
